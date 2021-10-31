@@ -57,14 +57,14 @@ int main()
 	srand(time(0));
 
 	const int size = 24;
-	int p[size];
+	int Arr[size];
 	
-	InitArray(p, size);
-	PrintArray(p, size);
-	cout << "Array sum by condition = " << SumArray(p, size) << endl;
-	cout << "Count element by condition = " << CountElementArray(p, size) << endl;
-	ReplaceElementArray(p, size);
-	PrintArray(p, size);
+	InitArray(Arr, size);
+	PrintArray(Arr, size);
+	cout << "Array sum by condition = " << SumArray(Arr, size) << endl;
+	cout << "Count element by condition = " << CountElementArray(Arr, size) << endl;
+	ReplaceElementArray(Arr, size);
+	PrintArray(Arr, size);
 
 	return 0;
 }
