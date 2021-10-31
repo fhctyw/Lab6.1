@@ -4,7 +4,6 @@
 // Пошук елементів одновимірного масиву ітераційним та рекурсивним способом
 // Варіант 13(Рекурсивний спосіб)
 #include <iostream>
-#include <iomanip>
 using namespace std;
 
 void InitArray(int arr[], const int size, int i)
