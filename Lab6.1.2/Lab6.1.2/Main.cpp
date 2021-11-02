@@ -69,7 +69,7 @@ void ReplaceElementArray(int arr[], const int size, int i)
 int main()
 {
 	srand(time(0));
-	const int size = 5;
+	const int size = 24;
 	int arr[size];
 
 	InitArray(arr, size, 0);
